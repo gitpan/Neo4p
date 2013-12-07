@@ -1,0 +1,57 @@
+{
+   "abstract" : "DBI-compliant interface for Neo4j server",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBD::Neo4p",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0",
+            "REST::Neo4p" : "0.2220",
+            "Test::Exception" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "JSON" : "0",
+            "REST::Neo4p" : "0.2220"
+         }
+      }
+   },
+   "provides" : {
+      "DBD::Neo4p" : {
+         "file" : "lib/DBD/Neo4p.pm",
+         "version" : "0.0001"
+      },
+      "DBD::Neo4p::db" : {
+         "file" : "lib/DBD/Neo4p.pm",
+         "version" : 0
+      },
+      "DBD::Neo4p::dr" : {
+         "file" : "lib/DBD/Neo4p.pm",
+         "version" : 0
+      },
+      "DBD::Neo4p::st" : {
+         "file" : "lib/DBD/Neo4p.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.0001"
+}
